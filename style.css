@@ -1,0 +1,86 @@
+body{
+margin: 0;
+padding: 0;
+font-family: montserrat;
+background: black;
+height: 100vh;
+}
+
+.centre{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+span{
+    color: crimson;
+    
+}
+.centre h1{
+    text-align: center;
+    color: white;
+}
+
+.centre h2{
+    color:white;
+}
+
+.centre button{
+    color: crimson;
+    text-align: center;
+    border-width: 2px;
+    border-color: crimson;
+    border-style: solid;
+    width: 50%;
+    height: 40px;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: relative;
+    width: 410px;
+    height: 40px;
+    
+
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    list-style: none;
+}
+a{
+    display: block;
+    width: calc(410px / 4);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slide{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: crimson;
+    transition: .4s;
+}
